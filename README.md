@@ -15,5 +15,10 @@ pip install -r requirements.txt
 flask run (to verify that the server runs)
 turn off the server
 pytest  (pytest looks for all files with the prefix "test_" and runs them
+        --https://docs.pytest.org/en/latest/goodpractices.html#test-discovery--
+
         it also runs conftest.py which gives test_app some info to test
-        the program)
+        the program
+
+        if you only want to run one of the test files you can call it by name
+        example:  pytest -q test_app.py
