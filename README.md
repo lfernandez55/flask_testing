@@ -5,6 +5,7 @@ This is a very simple demo of how to use pytest in combination with a flask app.
 It uses pytest as well as flask-pytest.
 
 It is based off an example at:  https://github.com/pytest-dev/pytest-flask/issues/7
+Also see these docs: https://docs.pytest.org/en/latest/contents.html
 
 To run it:
 
